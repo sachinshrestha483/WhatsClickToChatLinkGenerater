@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Click To Chat</title>
   </head>
   <body class="jumbotron">
     
@@ -27,17 +27,9 @@
         <br>
         
             </div>
+         
             <br>
-            <div class="input-group mb-3 ">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">Text</span>
-                </div>
-                <input type="text" class="form-control" placeholder="Text Message" v-model="textMessage" aria-label="Username" aria-describedby="basic-addon1">
-        <br>
-        
-            </div>
-            <br>
-        <a v-bind:href="'https://api.whatsapp.com/send?phone=91'+number+'?text='+textMessage" target="_blank" type="button" class="btn btn-primary btn-lg">Send Message</a>
+        <a v-bind:href="'https://api.whatsapp.com/send?phone=91'+number" target="_blank" type="button" class="btn btn-primary btn-lg">Send Message</a>
               
         </div>
     </div>

@@ -5,9 +5,7 @@ new Vue({
     el:'#vue-app',
     data:{
         //key value pair 
-        number:0,
-       textMessage:'',
-        websiteTag:'<a href="https://drive.google.com/drive/folders/1irbarbJsPO5jYQL5y9T_RzE0xDtGIhfE">yhtytyty </a>',
+        number:'',
     }
     ,
     methods:{
